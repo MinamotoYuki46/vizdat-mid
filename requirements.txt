@@ -18,6 +18,8 @@ click==8.3.0
     # via streamlit
 colorama==0.4.6
     # via click
+et-xmlfile==2.0.0
+    # via openpyxl
 gitdb==4.0.12
     # via gitpython
 gitpython==3.1.45
@@ -41,6 +43,8 @@ numpy==2.3.4
     #   pandas
     #   pydeck
     #   streamlit
+openpyxl==3.1.5
+    # via vizdat-mid (pyproject.toml)
 packaging==25.0
     # via
     #   altair
